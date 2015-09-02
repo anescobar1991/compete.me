@@ -90,4 +90,20 @@ class DiscoverRacesViewController: UIViewController {
     }
     */
 
+  // MARK: - searchBar delegate
+  
+  func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+    searchBar.showsCancelButton = true
+  }
+  
+  func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+    searchBar.text = ""
+    searchBar.endEditing(true)
+    searchBar.showsCancelButton = false
+  }
+  
+  func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    //TODO search for stuff here
+  }
+
 }

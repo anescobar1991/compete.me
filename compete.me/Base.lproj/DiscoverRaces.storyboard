@@ -28,8 +28,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="puN-q1-95W"/>
                                 </constraints>
+                                <color key="tintColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="1" green="0.3411764706" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="WpV-E6-ise" id="cYD-HS-x7I"/>
+                                </connections>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZl-8F-A8m">
                                 <rect key="frame" x="156" y="72" width="140" height="32"/>
@@ -241,7 +245,7 @@
                                     <outlet property="delegate" destination="WpV-E6-ise" id="h9V-lK-ucu"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoweredByActiveLogo" translatesAutoresizingMaskIntoConstraints="NO" id="U2H-t3-fkd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="PoweredByActiveLogo" translatesAutoresizingMaskIntoConstraints="NO" id="U2H-t3-fkd">
                                 <rect key="frame" x="535" y="585" width="57" height="7"/>
                             </imageView>
                         </subviews>
@@ -317,6 +321,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PoweredByActiveLogo" width="57" height="7"/>
+        <image name="PoweredByActiveLogo" width="115" height="14"/>
     </resources>
 </document>
