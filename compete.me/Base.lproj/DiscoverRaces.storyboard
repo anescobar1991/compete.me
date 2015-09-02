@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4Xy-L9-VQX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+    </dependencies>
+    <scenes>
+        <!--Discover Races View Controller-->
+        <scene sceneID="hTg-WO-xul">
+            <objects>
+                <viewController id="WpV-E6-ise" customClass="DiscoverRacesViewController" customModule="compete_me" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HjV-ql-2dZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="aci-eD-DdO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uVA-Gz-XS3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fz-fA-zpo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+                                <color key="backgroundColor" red="1" green="0.3411764706" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Uf5-Fi-1Ne"/>
+                                </constraints>
+                            </view>
+                            <searchBar contentMode="redraw" searchBarStyle="prominent" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="CLc-ZI-JFC">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="puN-q1-95W"/>
+                                </constraints>
+                                <color key="barTintColor" red="1" green="0.3411764706" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZl-8F-A8m">
+                                <rect key="frame" x="156" y="72" width="140" height="32"/>
+                                <color key="tintColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next weekend">
+                                            <attributes>
+                                                <color key="NSColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <state key="selected">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next weekend">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNextWeekendButton:" destination="WpV-E6-ise" eventType="touchUpInside" id="wug-dC-nY7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hXr-QY-Fh8">
+                                <rect key="frame" x="304" y="72" width="140" height="32"/>
+                                <color key="tintColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="month">
+                                            <attributes>
+                                                <color key="NSColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <state key="selected">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next month">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNextMonthButton:" destination="WpV-E6-ise" eventType="touchUpInside" id="5nU-mc-TWN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0LH-dc-Lk7">
+                                <rect key="frame" x="452" y="72" width="140" height="32"/>
+                                <color key="tintColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Other dates">
+                                            <attributes>
+                                                <color key="NSColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <state key="selected">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Other dates">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOtherDatesButton:" destination="WpV-E6-ise" eventType="touchUpInside" id="m6f-FJ-a8s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nv9-C0-pGZ">
+                                <rect key="frame" x="8" y="72" width="140" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="4rb-Kr-X60"/>
+                                </constraints>
+                                <color key="tintColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="This weekend">
+                                            <attributes>
+                                                <color key="NSColor" red="0.10196078431372549" green="0.13725490196078433" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <state key="selected">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="This weekend">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="didTapThisWeekendButton:" destination="WpV-E6-ise" eventType="touchUpInside" id="bLF-gf-NHU"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nh-nG-sGf">
+                                <rect key="frame" x="0.0" y="112" width="600" height="1"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Nze-0Y-YEs"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="233" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XbU-IC-dcx">
+                                <rect key="frame" x="0.0" y="113" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="raceCell" id="JUc-CV-PwE" customClass="RaceTableViewCell" customModule="compete_me" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JUc-CV-PwE" id="gwC-vB-5XL">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="232.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="August 25, 2016 @ Cynthia Woods Mitchell" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV8-8w-5eF">
+                                                    <rect key="frame" x="16" y="191" width="243.5" height="15"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="14.5" id="xM3-4B-Je2"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015 Run thru the Woods" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fv-re-zuy">
+                                                    <rect key="frame" x="16" y="8" width="184.5" height="175.5"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.1019607843" green="0.13725490200000001" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Running - 5 miles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1m-pT-tyz">
+                                                    <rect key="frame" x="16" y="210" width="99" height="14"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="14" id="CMG-yl-4nb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rV8-8w-5eF" firstAttribute="top" secondItem="7Fv-re-zuy" secondAttribute="bottom" constant="8" id="0bp-0N-abK"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Fv-re-zuy" secondAttribute="trailing" constant="8" id="J3q-Dd-neL"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rV8-8w-5eF" secondAttribute="trailing" constant="8" id="ZG6-jy-hSr"/>
+                                                <constraint firstItem="g1m-pT-tyz" firstAttribute="leading" secondItem="gwC-vB-5XL" secondAttribute="leading" constant="16" id="bb5-oO-e6e"/>
+                                                <constraint firstItem="7Fv-re-zuy" firstAttribute="leading" secondItem="gwC-vB-5XL" secondAttribute="leading" constant="16" id="bvO-2f-NbH"/>
+                                                <constraint firstItem="7Fv-re-zuy" firstAttribute="top" secondItem="gwC-vB-5XL" secondAttribute="top" constant="8" id="iB5-fK-voL"/>
+                                                <constraint firstItem="rV8-8w-5eF" firstAttribute="leading" secondItem="gwC-vB-5XL" secondAttribute="leading" constant="16" id="jjr-pZ-tqx"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="g1m-pT-tyz" secondAttribute="trailing" constant="8" id="kYW-hM-bcA"/>
+                                                <constraint firstAttribute="bottom" secondItem="g1m-pT-tyz" secondAttribute="bottom" constant="8" id="me9-94-dHm"/>
+                                                <constraint firstItem="g1m-pT-tyz" firstAttribute="top" secondItem="rV8-8w-5eF" secondAttribute="bottom" constant="4" id="oQz-Wt-HRf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <connections>
+                                            <outlet property="dateLocationLabel" destination="rV8-8w-5eF" id="O7A-Oc-vD2"/>
+                                            <outlet property="nameLabel" destination="7Fv-re-zuy" id="BbH-hg-WKo"/>
+                                            <outlet property="typeLabel" destination="g1m-pT-tyz" id="gJv-VV-doJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="WpV-E6-ise" id="ZcZ-bw-qzJ"/>
+                                    <outlet property="delegate" destination="WpV-E6-ise" id="h9V-lK-ucu"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoweredByActiveLogo" translatesAutoresizingMaskIntoConstraints="NO" id="U2H-t3-fkd">
+                                <rect key="frame" x="535" y="585" width="57" height="7"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0LH-dc-Lk7" firstAttribute="leading" secondItem="hXr-QY-Fh8" secondAttribute="trailing" constant="8" id="1Ae-pl-uKP"/>
+                            <constraint firstAttribute="trailing" secondItem="4nh-nG-sGf" secondAttribute="trailing" id="9dA-Yh-LdH"/>
+                            <constraint firstItem="WZl-8F-A8m" firstAttribute="height" secondItem="Nv9-C0-pGZ" secondAttribute="height" id="E3m-lG-mxi"/>
+                            <constraint firstAttribute="trailing" secondItem="0fz-fA-zpo" secondAttribute="trailing" id="FAl-j5-QxB"/>
+                            <constraint firstItem="aci-eD-DdO" firstAttribute="top" secondItem="XbU-IC-dcx" secondAttribute="bottom" id="J8U-9V-Rck"/>
+                            <constraint firstItem="hXr-QY-Fh8" firstAttribute="height" secondItem="Nv9-C0-pGZ" secondAttribute="height" id="Ka2-Tn-HqI"/>
+                            <constraint firstItem="aci-eD-DdO" firstAttribute="top" secondItem="U2H-t3-fkd" secondAttribute="bottom" constant="8" id="Lry-Uo-Y8P"/>
+                            <constraint firstItem="Nv9-C0-pGZ" firstAttribute="leading" secondItem="uVA-Gz-XS3" secondAttribute="leading" constant="8" id="MAE-Ra-wvd"/>
+                            <constraint firstItem="0LH-dc-Lk7" firstAttribute="height" secondItem="Nv9-C0-pGZ" secondAttribute="height" id="NAW-1e-cIC"/>
+                            <constraint firstItem="0fz-fA-zpo" firstAttribute="leading" secondItem="uVA-Gz-XS3" secondAttribute="leading" id="NsZ-ge-z1X"/>
+                            <constraint firstAttribute="trailing" secondItem="0LH-dc-Lk7" secondAttribute="trailing" constant="8" id="RN0-i5-uPE"/>
+                            <constraint firstItem="hXr-QY-Fh8" firstAttribute="width" secondItem="Nv9-C0-pGZ" secondAttribute="width" id="Rwm-MX-vRe"/>
+                            <constraint firstItem="hXr-QY-Fh8" firstAttribute="leading" secondItem="WZl-8F-A8m" secondAttribute="trailing" constant="8" id="S18-Bg-IkJ"/>
+                            <constraint firstItem="0LH-dc-Lk7" firstAttribute="top" secondItem="CLc-ZI-JFC" secondAttribute="bottom" constant="8" id="SY9-GS-7Mq"/>
+                            <constraint firstItem="WZl-8F-A8m" firstAttribute="top" secondItem="CLc-ZI-JFC" secondAttribute="bottom" constant="8" id="XC1-Fg-qiX"/>
+                            <constraint firstItem="XbU-IC-dcx" firstAttribute="leading" secondItem="uVA-Gz-XS3" secondAttribute="leading" id="Zqf-P6-USG"/>
+                            <constraint firstItem="hXr-QY-Fh8" firstAttribute="top" secondItem="CLc-ZI-JFC" secondAttribute="bottom" constant="8" id="cXZ-hV-Edo"/>
+                            <constraint firstItem="0fz-fA-zpo" firstAttribute="top" secondItem="HjV-ql-2dZ" secondAttribute="bottom" constant="-20" id="ezu-O4-x6E"/>
+                            <constraint firstItem="0LH-dc-Lk7" firstAttribute="width" secondItem="Nv9-C0-pGZ" secondAttribute="width" id="fuE-mU-7CK"/>
+                            <constraint firstItem="4nh-nG-sGf" firstAttribute="leading" secondItem="uVA-Gz-XS3" secondAttribute="leading" id="gfE-lV-tDj"/>
+                            <constraint firstAttribute="trailing" secondItem="U2H-t3-fkd" secondAttribute="trailing" constant="8" id="jT4-Go-lFp"/>
+                            <constraint firstItem="WZl-8F-A8m" firstAttribute="leading" secondItem="Nv9-C0-pGZ" secondAttribute="trailing" constant="8" id="jp2-bs-Mjl"/>
+                            <constraint firstItem="4nh-nG-sGf" firstAttribute="top" secondItem="Nv9-C0-pGZ" secondAttribute="bottom" constant="8" id="kp0-uT-dXt"/>
+                            <constraint firstItem="XbU-IC-dcx" firstAttribute="top" secondItem="4nh-nG-sGf" secondAttribute="bottom" id="o6g-zB-vUo"/>
+                            <constraint firstItem="CLc-ZI-JFC" firstAttribute="leading" secondItem="uVA-Gz-XS3" secondAttribute="leading" id="ogA-I6-Y4P"/>
+                            <constraint firstItem="Nv9-C0-pGZ" firstAttribute="top" secondItem="CLc-ZI-JFC" secondAttribute="bottom" constant="8" id="th2-Le-k2U"/>
+                            <constraint firstAttribute="trailing" secondItem="XbU-IC-dcx" secondAttribute="trailing" id="wSE-mX-V2W"/>
+                            <constraint firstItem="CLc-ZI-JFC" firstAttribute="top" secondItem="0fz-fA-zpo" secondAttribute="bottom" id="xyk-UX-wxh"/>
+                            <constraint firstAttribute="trailing" secondItem="CLc-ZI-JFC" secondAttribute="trailing" id="y4i-zW-0HQ"/>
+                            <constraint firstItem="WZl-8F-A8m" firstAttribute="width" secondItem="Nv9-C0-pGZ" secondAttribute="width" id="z05-8S-89I"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fSz-lM-uPX"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="nextMonthButton" destination="hXr-QY-Fh8" id="5oy-vx-HEl"/>
+                        <outlet property="nextWeekendButton" destination="WZl-8F-A8m" id="1lj-iF-IdE"/>
+                        <outlet property="otherDatesButton" destination="0LH-dc-Lk7" id="67N-x9-896"/>
+                        <outlet property="racesTable" destination="XbU-IC-dcx" id="0je-T7-0xH"/>
+                        <outlet property="thisWeekendButton" destination="Nv9-C0-pGZ" id="3cI-Hw-XuA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kw8-EQ-Bhx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887" y="27"/>
+        </scene>
+        <!--Discover races-->
+        <scene sceneID="GI6-4r-yy2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="4Xy-L9-VQX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Discover races" id="97i-1p-ziV"/>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="czt-w0-RMX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.3411764706" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WpV-E6-ise" kind="relationship" relationship="rootViewController" id="Ivy-CE-ZOv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7JN-t5-SbF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843" y="-29"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PoweredByActiveLogo" width="57" height="7"/>
+    </resources>
+</document>

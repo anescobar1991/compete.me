@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4150DFF61B926C02009E72E8 /* DiscoverRacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		418814FC1B969BBD00B6D847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418814FB1B969BBD00B6D847 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		41CD9F101B9021B800F4C75F /* DiscoverRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */; settings = {ASSET_TAGS = (); }; };
+		41CD9F111B9021B800F4C75F /* MyRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */; settings = {ASSET_TAGS = (); }; };
+		41CD9F141B9021F300F4C75F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F121B9021F300F4C75F /* Profile.storyboard */; settings = {ASSET_TAGS = (); }; };
+		41E648681B9521E100272872 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E648671B9521E100272872 /* Race.swift */; settings = {ASSET_TAGS = (); }; };
+		41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6486A1B95297C00272872 /* RaceTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		41EFD1771B8D63CD00B05B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */; };
+		41EFD1801B8D63CD00B05B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */; };
+		41EFD1831B8D63CD00B05B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */; };
+		41EFD18E1B8D63CD00B05B22 /* compete_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */; };
+		41EFD1991B8D63CD00B05B22 /* compete_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41EFD18A1B8D63CD00B05B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EFD16B1B8D63CD00B05B22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EFD1721B8D63CD00B05B22;
+			remoteInfo = compete.me;
+		};
+		41EFD1951B8D63CD00B05B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EFD16B1B8D63CD00B05B22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EFD1721B8D63CD00B05B22;
+			remoteInfo = compete.me;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoverRacesViewController.swift; path = DiscoverRaces/DiscoverRacesViewController.swift; sourceTree = "<group>"; };
+		418814FB1B969BBD00B6D847 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		41CD9F0D1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = compete.me/Base.lproj/DiscoverRaces.storyboard; sourceTree = "<group>"; };
+		41CD9F0F1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = compete.me/Base.lproj/MyRaces.storyboard; sourceTree = "<group>"; };
+		41CD9F131B9021F300F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = compete.me/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		41E648671B9521E100272872 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		41E6486A1B95297C00272872 /* RaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceTableViewCell.swift; sourceTree = "<group>"; };
+		41EFD1731B8D63CD00B05B22 /* compete.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compete.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41EFD1821B8D63CD00B05B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41EFD1841B8D63CD00B05B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EFD1891B8D63CD00B05B22 /* compete.meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compete.meTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compete_meTests.swift; sourceTree = "<group>"; };
+		41EFD18F1B8D63CD00B05B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EFD1941B8D63CD00B05B22 /* compete.meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compete.meUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compete_meUITests.swift; sourceTree = "<group>"; };
+		41EFD19A1B8D63CD00B05B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41EFD1701B8D63CD00B05B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFD1861B8D63CD00B05B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFD1911B8D63CD00B05B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414DCFB81B9014E500E466B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41E648691B95293300272872 /* Common */,
+				41CD9F171B91669400F4C75F /* MyRaces */,
+				41CD9F161B91668B00F4C75F /* DiscoverRaces */,
+				41CD9F151B91668200F4C75F /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		414DCFB91B9014F300E466B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41E648671B9521E100272872 /* Race.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		414DCFBA1B90151B00E466B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		414DCFBB1B90158200E466B9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		41CD9F151B91668200F4C75F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				41CD9F121B9021F300F4C75F /* Profile.storyboard */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		41CD9F161B91668B00F4C75F /* DiscoverRaces */ = {
+			isa = PBXGroup;
+			children = (
+				41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */,
+				4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */,
+			);
+			name = DiscoverRaces;
+			sourceTree = "<group>";
+		};
+		41CD9F171B91669400F4C75F /* MyRaces */ = {
+			isa = PBXGroup;
+			children = (
+				41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */,
+			);
+			name = MyRaces;
+			sourceTree = "<group>";
+		};
+		41E648691B95293300272872 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				41E6486A1B95297C00272872 /* RaceTableViewCell.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		41EFD16A1B8D63CD00B05B22 = {
+			isa = PBXGroup;
+			children = (
+				418814FB1B969BBD00B6D847 /* Main.storyboard */,
+				41EFD1751B8D63CD00B05B22 /* compete.me */,
+				41EFD18C1B8D63CD00B05B22 /* compete.meTests */,
+				41EFD1971B8D63CD00B05B22 /* compete.meUITests */,
+				41EFD1741B8D63CD00B05B22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41EFD1741B8D63CD00B05B22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41EFD1731B8D63CD00B05B22 /* compete.me.app */,
+				41EFD1891B8D63CD00B05B22 /* compete.meTests.xctest */,
+				41EFD1941B8D63CD00B05B22 /* compete.meUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41EFD1751B8D63CD00B05B22 /* compete.me */ = {
+			isa = PBXGroup;
+			children = (
+				414DCFBB1B90158200E466B9 /* Helpers */,
+				414DCFBA1B90151B00E466B9 /* ViewModels */,
+				414DCFB91B9014F300E466B9 /* Models */,
+				414DCFB81B9014E500E466B9 /* Views */,
+				41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */,
+				41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */,
+				41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */,
+				41EFD1841B8D63CD00B05B22 /* Info.plist */,
+			);
+			path = compete.me;
+			sourceTree = "<group>";
+		};
+		41EFD18C1B8D63CD00B05B22 /* compete.meTests */ = {
+			isa = PBXGroup;
+			children = (
+				41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */,
+				41EFD18F1B8D63CD00B05B22 /* Info.plist */,
+			);
+			path = compete.meTests;
+			sourceTree = "<group>";
+		};
+		41EFD1971B8D63CD00B05B22 /* compete.meUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */,
+				41EFD19A1B8D63CD00B05B22 /* Info.plist */,
+			);
+			path = compete.meUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41EFD1721B8D63CD00B05B22 /* compete.me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EFD19D1B8D63CD00B05B22 /* Build configuration list for PBXNativeTarget "compete.me" */;
+			buildPhases = (
+				41EFD16F1B8D63CD00B05B22 /* Sources */,
+				41EFD1701B8D63CD00B05B22 /* Frameworks */,
+				41EFD1711B8D63CD00B05B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compete.me;
+			productName = compete.me;
+			productReference = 41EFD1731B8D63CD00B05B22 /* compete.me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41EFD1881B8D63CD00B05B22 /* compete.meTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EFD1A01B8D63CD00B05B22 /* Build configuration list for PBXNativeTarget "compete.meTests" */;
+			buildPhases = (
+				41EFD1851B8D63CD00B05B22 /* Sources */,
+				41EFD1861B8D63CD00B05B22 /* Frameworks */,
+				41EFD1871B8D63CD00B05B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EFD18B1B8D63CD00B05B22 /* PBXTargetDependency */,
+			);
+			name = compete.meTests;
+			productName = compete.meTests;
+			productReference = 41EFD1891B8D63CD00B05B22 /* compete.meTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41EFD1931B8D63CD00B05B22 /* compete.meUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EFD1A31B8D63CD00B05B22 /* Build configuration list for PBXNativeTarget "compete.meUITests" */;
+			buildPhases = (
+				41EFD1901B8D63CD00B05B22 /* Sources */,
+				41EFD1911B8D63CD00B05B22 /* Frameworks */,
+				41EFD1921B8D63CD00B05B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EFD1961B8D63CD00B05B22 /* PBXTargetDependency */,
+			);
+			name = compete.meUITests;
+			productName = compete.meUITests;
+			productReference = 41EFD1941B8D63CD00B05B22 /* compete.meUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41EFD16B1B8D63CD00B05B22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andres Escobar";
+				TargetAttributes = {
+					41EFD1721B8D63CD00B05B22 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					41EFD1881B8D63CD00B05B22 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 41EFD1721B8D63CD00B05B22;
+					};
+					41EFD1931B8D63CD00B05B22 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 41EFD1721B8D63CD00B05B22;
+					};
+				};
+			};
+			buildConfigurationList = 41EFD16E1B8D63CD00B05B22 /* Build configuration list for PBXProject "compete.me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41EFD16A1B8D63CD00B05B22;
+			productRefGroup = 41EFD1741B8D63CD00B05B22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41EFD1721B8D63CD00B05B22 /* compete.me */,
+				41EFD1881B8D63CD00B05B22 /* compete.meTests */,
+				41EFD1931B8D63CD00B05B22 /* compete.meUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EFD1711B8D63CD00B05B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD9F141B9021F300F4C75F /* Profile.storyboard in Resources */,
+				418814FC1B969BBD00B6D847 /* Main.storyboard in Resources */,
+				41CD9F101B9021B800F4C75F /* DiscoverRaces.storyboard in Resources */,
+				41EFD1831B8D63CD00B05B22 /* LaunchScreen.storyboard in Resources */,
+				41CD9F111B9021B800F4C75F /* MyRaces.storyboard in Resources */,
+				41EFD1801B8D63CD00B05B22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFD1871B8D63CD00B05B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFD1921B8D63CD00B05B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41EFD16F1B8D63CD00B05B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */,
+				4150DFF61B926C02009E72E8 /* DiscoverRacesViewController.swift in Sources */,
+				41E648681B9521E100272872 /* Race.swift in Sources */,
+				41EFD1771B8D63CD00B05B22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFD1851B8D63CD00B05B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EFD18E1B8D63CD00B05B22 /* compete_meTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFD1901B8D63CD00B05B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EFD1991B8D63CD00B05B22 /* compete_meUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41EFD18B1B8D63CD00B05B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EFD1721B8D63CD00B05B22 /* compete.me */;
+			targetProxy = 41EFD18A1B8D63CD00B05B22 /* PBXContainerItemProxy */;
+		};
+		41EFD1961B8D63CD00B05B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EFD1721B8D63CD00B05B22 /* compete.me */;
+			targetProxy = 41EFD1951B8D63CD00B05B22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD9F0D1B9021B800F4C75F /* Base */,
+			);
+			name = DiscoverRaces.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD9F0F1B9021B800F4C75F /* Base */,
+			);
+			name = MyRaces.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		41CD9F121B9021F300F4C75F /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD9F131B9021F300F4C75F /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EFD1821B8D63CD00B05B22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41EFD19B1B8D63CD00B05B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41EFD19C1B8D63CD00B05B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41EFD19E1B8D63CD00B05B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = compete.me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41EFD19F1B8D63CD00B05B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = compete.me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41EFD1A11B8D63CD00B05B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = compete.meTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-meTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/compete.me.app/compete.me";
+			};
+			name = Debug;
+		};
+		41EFD1A21B8D63CD00B05B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = compete.meTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-meTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/compete.me.app/compete.me";
+			};
+			name = Release;
+		};
+		41EFD1A41B8D63CD00B05B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = compete.meUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-meUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = compete.me;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		41EFD1A51B8D63CD00B05B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = compete.meUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-meUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = compete.me;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41EFD16E1B8D63CD00B05B22 /* Build configuration list for PBXProject "compete.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EFD19B1B8D63CD00B05B22 /* Debug */,
+				41EFD19C1B8D63CD00B05B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EFD19D1B8D63CD00B05B22 /* Build configuration list for PBXNativeTarget "compete.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EFD19E1B8D63CD00B05B22 /* Debug */,
+				41EFD19F1B8D63CD00B05B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EFD1A01B8D63CD00B05B22 /* Build configuration list for PBXNativeTarget "compete.meTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EFD1A11B8D63CD00B05B22 /* Debug */,
+				41EFD1A21B8D63CD00B05B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EFD1A31B8D63CD00B05B22 /* Build configuration list for PBXNativeTarget "compete.meUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EFD1A41B8D63CD00B05B22 /* Debug */,
+				41EFD1A51B8D63CD00B05B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41EFD16B1B8D63CD00B05B22 /* Project object */;
+}
