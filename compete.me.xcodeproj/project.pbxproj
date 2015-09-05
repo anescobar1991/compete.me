@@ -59,9 +59,6 @@
 		41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compete_meUITests.swift; sourceTree = "<group>"; };
 		41EFD19A1B8D63CD00B05B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverRacesViewModel.swift; sourceTree = "<group>"; };
-		7049CC328E62B769180A8851 /* Pods-compete.me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compete.me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-compete.me/Pods-compete.me.debug.xcconfig"; sourceTree = "<group>"; };
-		7A5887B77BEE5A7569A0DCE2 /* Pods-compete.me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compete.me.release.xcconfig"; path = "Pods/Target Support Files/Pods-compete.me/Pods-compete.me.release.xcconfig"; sourceTree = "<group>"; };
-		8F37D6BC78FE9C69330234D2 /* Pods_compete_me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_compete_me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +165,6 @@
 		41EFD16A1B8D63CD00B05B22 = {
 			isa = PBXGroup;
 			children = (
-				F8E8E9097B42854A2D540D45 /* Frameworks */,
-				BC1E95DE8BC751BC33F0832E /* Pods */,
 				41EFD1741B8D63CD00B05B22 /* Products */,
 				41EFD1751B8D63CD00B05B22 /* compete.me */,
 				41EFD18C1B8D63CD00B05B22 /* compete.meTests */,
@@ -218,23 +213,6 @@
 				41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */,
 			);
 			path = compete.meUITests;
-			sourceTree = "<group>";
-		};
-		BC1E95DE8BC751BC33F0832E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7049CC328E62B769180A8851 /* Pods-compete.me.debug.xcconfig */,
-				7A5887B77BEE5A7569A0DCE2 /* Pods-compete.me.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F8E8E9097B42854A2D540D45 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8F37D6BC78FE9C69330234D2 /* Pods_compete_me.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
