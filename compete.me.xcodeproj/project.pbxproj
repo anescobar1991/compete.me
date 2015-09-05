@@ -94,6 +94,7 @@
 			children = (
 				41E648691B95293300272872 /* Common */,
 				41CD9F161B91668B00F4C75F /* DiscoverRaces */,
+				415545E51B9AB73C00279AE7 /* Launch */,
 				41CD9F171B91669400F4C75F /* MyRaces */,
 				41CD9F151B91668200F4C75F /* Profile */,
 			);
@@ -121,6 +122,14 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		415545E51B9AB73C00279AE7 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 		41CD9F151B91668200F4C75F /* Profile */ = {
@@ -189,7 +198,6 @@
 				41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */,
 				41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */,
 				41EFD1841B8D63CD00B05B22 /* Info.plist */,
-				41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */,
 			);
 			path = compete.me;
 			sourceTree = "<group>";
