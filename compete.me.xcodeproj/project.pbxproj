@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4150DFF61B926C02009E72E8 /* DiscoverRacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		418814FC1B969BBD00B6D847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418814FB1B969BBD00B6D847 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		41CD9F101B9021B800F4C75F /* DiscoverRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */; settings = {ASSET_TAGS = (); }; };
-		41CD9F111B9021B800F4C75F /* MyRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */; settings = {ASSET_TAGS = (); }; };
-		41CD9F141B9021F300F4C75F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F121B9021F300F4C75F /* Profile.storyboard */; settings = {ASSET_TAGS = (); }; };
-		41E648681B9521E100272872 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E648671B9521E100272872 /* Race.swift */; settings = {ASSET_TAGS = (); }; };
-		41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6486A1B95297C00272872 /* RaceTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		4150DFF61B926C02009E72E8 /* DiscoverRacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */; };
+		418814FC1B969BBD00B6D847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418814FB1B969BBD00B6D847 /* Main.storyboard */; };
+		41CD9F101B9021B800F4C75F /* DiscoverRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */; };
+		41CD9F111B9021B800F4C75F /* MyRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */; };
+		41CD9F141B9021F300F4C75F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F121B9021F300F4C75F /* Profile.storyboard */; };
+		41E648681B9521E100272872 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E648671B9521E100272872 /* Race.swift */; };
+		41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6486A1B95297C00272872 /* RaceTableViewCell.swift */; };
 		41EFD1771B8D63CD00B05B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */; };
 		41EFD1801B8D63CD00B05B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */; };
 		41EFD1831B8D63CD00B05B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */; };
 		41EFD18E1B8D63CD00B05B22 /* compete_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */; };
 		41EFD1991B8D63CD00B05B22 /* compete_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */; };
+		41F11B6C1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoverRacesViewController.swift; path = DiscoverRaces/DiscoverRacesViewController.swift; sourceTree = "<group>"; };
+		4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverRacesViewController.swift; sourceTree = "<group>"; };
 		418814FB1B969BBD00B6D847 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		41CD9F0D1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = compete.me/Base.lproj/DiscoverRaces.storyboard; sourceTree = "<group>"; };
-		41CD9F0F1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = compete.me/Base.lproj/MyRaces.storyboard; sourceTree = "<group>"; };
-		41CD9F131B9021F300F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = compete.me/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		41CD9F0D1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DiscoverRaces.storyboard; sourceTree = "<group>"; };
+		41CD9F0F1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyRaces.storyboard; sourceTree = "<group>"; };
+		41CD9F131B9021F300F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		41E648671B9521E100272872 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
 		41E6486A1B95297C00272872 /* RaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceTableViewCell.swift; sourceTree = "<group>"; };
 		41EFD1731B8D63CD00B05B22 /* compete.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compete.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +58,10 @@
 		41EFD1941B8D63CD00B05B22 /* compete.meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compete.meUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compete_meUITests.swift; sourceTree = "<group>"; };
 		41EFD19A1B8D63CD00B05B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverRacesViewModel.swift; sourceTree = "<group>"; };
+		7049CC328E62B769180A8851 /* Pods-compete.me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compete.me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-compete.me/Pods-compete.me.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5887B77BEE5A7569A0DCE2 /* Pods-compete.me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compete.me.release.xcconfig"; path = "Pods/Target Support Files/Pods-compete.me/Pods-compete.me.release.xcconfig"; sourceTree = "<group>"; };
+		8F37D6BC78FE9C69330234D2 /* Pods_compete_me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_compete_me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				41E648691B95293300272872 /* Common */,
-				41CD9F171B91669400F4C75F /* MyRaces */,
 				41CD9F161B91668B00F4C75F /* DiscoverRaces */,
+				41CD9F171B91669400F4C75F /* MyRaces */,
 				41CD9F151B91668200F4C75F /* Profile */,
 			);
 			path = Views;
@@ -106,6 +111,7 @@
 		414DCFBA1B90151B00E466B9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -122,7 +128,7 @@
 			children = (
 				41CD9F121B9021F300F4C75F /* Profile.storyboard */,
 			);
-			name = Profile;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		41CD9F161B91668B00F4C75F /* DiscoverRaces */ = {
@@ -131,7 +137,7 @@
 				41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */,
 				4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */,
 			);
-			name = DiscoverRaces;
+			path = DiscoverRaces;
 			sourceTree = "<group>";
 		};
 		41CD9F171B91669400F4C75F /* MyRaces */ = {
@@ -139,7 +145,7 @@
 			children = (
 				41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */,
 			);
-			name = MyRaces;
+			path = MyRaces;
 			sourceTree = "<group>";
 		};
 		41E648691B95293300272872 /* Common */ = {
@@ -147,17 +153,19 @@
 			children = (
 				41E6486A1B95297C00272872 /* RaceTableViewCell.swift */,
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		41EFD16A1B8D63CD00B05B22 = {
 			isa = PBXGroup;
 			children = (
-				418814FB1B969BBD00B6D847 /* Main.storyboard */,
+				F8E8E9097B42854A2D540D45 /* Frameworks */,
+				BC1E95DE8BC751BC33F0832E /* Pods */,
+				41EFD1741B8D63CD00B05B22 /* Products */,
 				41EFD1751B8D63CD00B05B22 /* compete.me */,
 				41EFD18C1B8D63CD00B05B22 /* compete.meTests */,
 				41EFD1971B8D63CD00B05B22 /* compete.meUITests */,
-				41EFD1741B8D63CD00B05B22 /* Products */,
+				418814FB1B969BBD00B6D847 /* Main.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,13 +183,13 @@
 			isa = PBXGroup;
 			children = (
 				414DCFBB1B90158200E466B9 /* Helpers */,
-				414DCFBA1B90151B00E466B9 /* ViewModels */,
 				414DCFB91B9014F300E466B9 /* Models */,
+				414DCFBA1B90151B00E466B9 /* ViewModels */,
 				414DCFB81B9014E500E466B9 /* Views */,
 				41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */,
 				41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */,
-				41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */,
 				41EFD1841B8D63CD00B05B22 /* Info.plist */,
+				41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */,
 			);
 			path = compete.me;
 			sourceTree = "<group>";
@@ -189,8 +197,8 @@
 		41EFD18C1B8D63CD00B05B22 /* compete.meTests */ = {
 			isa = PBXGroup;
 			children = (
-				41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */,
 				41EFD18F1B8D63CD00B05B22 /* Info.plist */,
+				41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */,
 			);
 			path = compete.meTests;
 			sourceTree = "<group>";
@@ -198,10 +206,27 @@
 		41EFD1971B8D63CD00B05B22 /* compete.meUITests */ = {
 			isa = PBXGroup;
 			children = (
-				41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */,
 				41EFD19A1B8D63CD00B05B22 /* Info.plist */,
+				41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */,
 			);
 			path = compete.meUITests;
+			sourceTree = "<group>";
+		};
+		BC1E95DE8BC751BC33F0832E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7049CC328E62B769180A8851 /* Pods-compete.me.debug.xcconfig */,
+				7A5887B77BEE5A7569A0DCE2 /* Pods-compete.me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8E8E9097B42854A2D540D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F37D6BC78FE9C69330234D2 /* Pods_compete_me.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F11B6C1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift in Sources */,
 				41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */,
 				4150DFF61B926C02009E72E8 /* DiscoverRacesViewController.swift in Sources */,
 				41E648681B9521E100272872 /* Race.swift in Sources */,
@@ -382,7 +408,7 @@
 				41CD9F0D1B9021B800F4C75F /* Base */,
 			);
 			name = DiscoverRaces.storyboard;
-			path = ../..;
+			path = .;
 			sourceTree = "<group>";
 		};
 		41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */ = {
@@ -391,7 +417,7 @@
 				41CD9F0F1B9021B800F4C75F /* Base */,
 			);
 			name = MyRaces.storyboard;
-			path = ../..;
+			path = .;
 			sourceTree = "<group>";
 		};
 		41CD9F121B9021F300F4C75F /* Profile.storyboard */ = {
@@ -400,7 +426,7 @@
 				41CD9F131B9021F300F4C75F /* Base */,
 			);
 			name = Profile.storyboard;
-			path = ../..;
+			path = .;
 			sourceTree = "<group>";
 		};
 		41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */ = {
@@ -409,6 +435,7 @@
 				41EFD1821B8D63CD00B05B22 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,6 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = compete.me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(Inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -512,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = compete.me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(Inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anescobar.compete-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

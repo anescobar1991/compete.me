@@ -8,16 +8,54 @@ class DiscoverRacesViewController: UIViewController {
   @IBOutlet private weak var thisWeekendButton: UIButton!
   @IBOutlet private weak var racesTable: UITableView!
   
+  private let progressBar = UIActivityIndicatorView(activityIndicatorStyle: .Gray)
+  private let messageLabel = UILabel()
+  private let refreshControl = UIRefreshControl()
+  
   var races: [Race] = []
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    configureView()
+    
+    //load races if no races
+    createRaces()
+  }
+  
+  func refreshData(sender: AnyObject) {
+    //TODO refresh data here using whatever is in core data for settings and search
+  }
+  
+  private func configureView() {
+    messageLabel.numberOfLines = 0;
+    messageLabel.textColor = UIColor.darkGrayColor()
+    messageLabel.textAlignment = NSTextAlignment.Center
+    
+    refreshControl.addTarget(self, action: "refreshData:", forControlEvents: UIControlEvents.ValueChanged)
+    racesTable.addSubview(refreshControl)
+    
     racesTable.separatorStyle = UITableViewCellSeparatorStyle.None
     racesTable.rowHeight = UITableViewAutomaticDimension
-    racesTable.estimatedRowHeight = 60.00
+    racesTable.estimatedRowHeight = 160.00
     
-    createRaces()
+    progressBar.center = racesTable.center
+    progressBar.hidesWhenStopped = true
+  }
+  
+  private func setTableViewMessageLabel(message: String) {
+    messageLabel.text = message
+    racesTable.backgroundView = messageLabel
+  }
+  
+  private func displayProgressBar(display: Bool) {
+    if (display) {
+      racesTable.backgroundView = progressBar
+      progressBar.startAnimating()
+    } else {
+      racesTable.backgroundView = nil
+      progressBar.stopAnimating()
+    }
   }
   
   func createRaces() {
@@ -77,7 +115,8 @@ class DiscoverRacesViewController: UIViewController {
 //  }
   
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return races.count
+//    return races.count
+    return 0;
   }
 
     /*
@@ -93,13 +132,13 @@ class DiscoverRacesViewController: UIViewController {
   // MARK: - searchBar delegate
   
   func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
-    searchBar.showsCancelButton = true
+    searchBar.setShowsCancelButton(true, animated: true)
   }
   
   func searchBarCancelButtonClicked(searchBar: UISearchBar) {
     searchBar.text = ""
     searchBar.endEditing(true)
-    searchBar.showsCancelButton = false
+    searchBar.setShowsCancelButton(false, animated: true)
   }
   
   func searchBarSearchButtonClicked(searchBar: UISearchBar) {
