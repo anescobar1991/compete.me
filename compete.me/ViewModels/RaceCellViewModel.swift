@@ -1,6 +1,6 @@
 import Foundation
 
-class Race {
+class RaceCellViewModel {
   var name: String
   var date: String
   var location: String

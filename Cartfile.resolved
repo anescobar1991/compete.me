@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "2.0.0"
+github "antitypical/Result" "a9940162d201511f8f13ccb4e2eb57f3a3ca8f89"
+github "SwiftyJSON/SwiftyJSON" "d4df13c66146a8e9c8d96c852746a08363003d36"
+github "ReactiveCocoa/ReactiveCocoa" "83eb2e9c379ca6cd4be8c26d10678180b5a0cd41"

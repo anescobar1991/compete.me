@@ -12,14 +12,27 @@
 		41CD9F101B9021B800F4C75F /* DiscoverRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0C1B9021B800F4C75F /* DiscoverRaces.storyboard */; };
 		41CD9F111B9021B800F4C75F /* MyRaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F0E1B9021B800F4C75F /* MyRaces.storyboard */; };
 		41CD9F141B9021F300F4C75F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9F121B9021F300F4C75F /* Profile.storyboard */; };
-		41E648681B9521E100272872 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E648671B9521E100272872 /* Race.swift */; };
+		41E648681B9521E100272872 /* RaceCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E648671B9521E100272872 /* RaceCellViewModel.swift */; };
 		41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6486A1B95297C00272872 /* RaceTableViewCell.swift */; };
 		41EFD1771B8D63CD00B05B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */; };
 		41EFD1801B8D63CD00B05B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EFD17F1B8D63CD00B05B22 /* Assets.xcassets */; };
 		41EFD1831B8D63CD00B05B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EFD1811B8D63CD00B05B22 /* LaunchScreen.storyboard */; };
 		41EFD18E1B8D63CD00B05B22 /* compete_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD18D1B8D63CD00B05B22 /* compete_meTests.swift */; };
 		41EFD1991B8D63CD00B05B22 /* compete_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */; };
+		41EFDA381BA5291E0001222F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA371BA5291E0001222F /* Alamofire.framework */; };
+		41EFDA391BA5291E0001222F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA371BA5291E0001222F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41EFDA3C1BA529270001222F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA3B1BA529270001222F /* ReactiveCocoa.framework */; };
+		41EFDA3D1BA529270001222F /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA3B1BA529270001222F /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41EFDA3F1BA5292F0001222F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA3E1BA5292F0001222F /* Result.framework */; };
+		41EFDA401BA5292F0001222F /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA3E1BA5292F0001222F /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41EFDA421BA529350001222F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA411BA529350001222F /* SwiftyJSON.framework */; };
+		41EFDA431BA529350001222F /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA411BA529350001222F /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41EFDA451BA536310001222F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EFDA441BA536310001222F /* CoreLocation.framework */; };
 		41F11B6C1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */; };
+		41F8BDBA1B9D3FDE00CD6168 /* ActiveAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8BDB91B9D3FDE00CD6168 /* ActiveAPIDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		41F8BDBC1B9D44C800CD6168 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8BDBB1B9D44C800CD6168 /* Race.swift */; settings = {ASSET_TAGS = (); }; };
+		41F8BDBE1B9E8D6E00CD6168 /* UserLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8BDBD1B9E8D6E00CD6168 /* UserLocationProvider.swift */; settings = {ASSET_TAGS = (); }; };
+		41F8BDC31B9FD09000CD6168 /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8BDC21B9FD09000CD6168 /* Races.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +52,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		41EFDA3A1BA5291F0001222F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				41EFDA431BA529350001222F /* SwiftyJSON.framework in Embed Frameworks */,
+				41EFDA401BA5292F0001222F /* Result.framework in Embed Frameworks */,
+				41EFDA391BA5291E0001222F /* Alamofire.framework in Embed Frameworks */,
+				41EFDA3D1BA529270001222F /* ReactiveCocoa.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4150DFF51B926C02009E72E8 /* DiscoverRacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverRacesViewController.swift; sourceTree = "<group>"; };
+		415545ED1B9C0AB300279AE7 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		415545F11B9C0AB900279AE7 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		418814FB1B969BBD00B6D847 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		41CD9F0D1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DiscoverRaces.storyboard; sourceTree = "<group>"; };
 		41CD9F0F1B9021B800F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyRaces.storyboard; sourceTree = "<group>"; };
 		41CD9F131B9021F300F4C75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
-		41E648671B9521E100272872 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		41E648671B9521E100272872 /* RaceCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCellViewModel.swift; sourceTree = "<group>"; };
 		41E6486A1B95297C00272872 /* RaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceTableViewCell.swift; sourceTree = "<group>"; };
 		41EFD1731B8D63CD00B05B22 /* compete.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compete.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFD1761B8D63CD00B05B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +90,16 @@
 		41EFD1941B8D63CD00B05B22 /* compete.meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compete.meUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFD1981B8D63CD00B05B22 /* compete_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compete_meUITests.swift; sourceTree = "<group>"; };
 		41EFD19A1B8D63CD00B05B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EFDA371BA5291E0001222F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		41EFDA3B1BA529270001222F /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		41EFDA3E1BA5292F0001222F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		41EFDA411BA529350001222F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		41EFDA441BA536310001222F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverRacesViewModel.swift; sourceTree = "<group>"; };
+		41F8BDB91B9D3FDE00CD6168 /* ActiveAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveAPIDataManager.swift; sourceTree = "<group>"; };
+		41F8BDBB1B9D44C800CD6168 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		41F8BDBD1B9E8D6E00CD6168 /* UserLocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationProvider.swift; sourceTree = "<group>"; };
+		41F8BDC21B9FD09000CD6168 /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +107,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EFDA451BA536310001222F /* CoreLocation.framework in Frameworks */,
+				41EFDA421BA529350001222F /* SwiftyJSON.framework in Frameworks */,
+				41EFDA3F1BA5292F0001222F /* Result.framework in Frameworks */,
+				41EFDA381BA5291E0001222F /* Alamofire.framework in Frameworks */,
+				41EFDA3C1BA529270001222F /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +147,8 @@
 		414DCFB91B9014F300E466B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				41E648671B9521E100272872 /* Race.swift */,
+				41F8BDBB1B9D44C800CD6168 /* Race.swift */,
+				41F8BDC21B9FD09000CD6168 /* Races.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,15 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				41F11B6B1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift */,
+				41E648671B9521E100272872 /* RaceCellViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		414DCFBB1B90158200E466B9 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		415545E51B9AB73C00279AE7 /* Launch */ = {
@@ -165,11 +206,18 @@
 		41EFD16A1B8D63CD00B05B22 = {
 			isa = PBXGroup;
 			children = (
+				41EFDA441BA536310001222F /* CoreLocation.framework */,
+				41EFDA411BA529350001222F /* SwiftyJSON.framework */,
+				41EFDA3E1BA5292F0001222F /* Result.framework */,
+				41EFDA3B1BA529270001222F /* ReactiveCocoa.framework */,
+				41EFDA371BA5291E0001222F /* Alamofire.framework */,
 				41EFD1741B8D63CD00B05B22 /* Products */,
 				41EFD1751B8D63CD00B05B22 /* compete.me */,
 				41EFD18C1B8D63CD00B05B22 /* compete.meTests */,
 				41EFD1971B8D63CD00B05B22 /* compete.meUITests */,
 				418814FB1B969BBD00B6D847 /* Main.storyboard */,
+				415545ED1B9C0AB300279AE7 /* ReactiveCocoa.framework */,
+				415545F11B9C0AB900279AE7 /* Result.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,7 +234,7 @@
 		41EFD1751B8D63CD00B05B22 /* compete.me */ = {
 			isa = PBXGroup;
 			children = (
-				414DCFBB1B90158200E466B9 /* Helpers */,
+				41F8BDBF1B9E9C1A00CD6168 /* API */,
 				414DCFB91B9014F300E466B9 /* Models */,
 				414DCFBA1B90151B00E466B9 /* ViewModels */,
 				414DCFB81B9014E500E466B9 /* Views */,
@@ -215,6 +263,15 @@
 			path = compete.meUITests;
 			sourceTree = "<group>";
 		};
+		41F8BDBF1B9E9C1A00CD6168 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				41F8BDB91B9D3FDE00CD6168 /* ActiveAPIDataManager.swift */,
+				41F8BDBD1B9E8D6E00CD6168 /* UserLocationProvider.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +282,7 @@
 				41EFD16F1B8D63CD00B05B22 /* Sources */,
 				41EFD1701B8D63CD00B05B22 /* Frameworks */,
 				41EFD1711B8D63CD00B05B22 /* Resources */,
+				41EFDA3A1BA5291F0001222F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,10 +407,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F11B6C1B9A9E6700CC0144 /* DiscoverRacesViewModel.swift in Sources */,
+				41F8BDBC1B9D44C800CD6168 /* Race.swift in Sources */,
 				41E6486B1B95297C00272872 /* RaceTableViewCell.swift in Sources */,
 				4150DFF61B926C02009E72E8 /* DiscoverRacesViewController.swift in Sources */,
-				41E648681B9521E100272872 /* Race.swift in Sources */,
+				41E648681B9521E100272872 /* RaceCellViewModel.swift in Sources */,
 				41EFD1771B8D63CD00B05B22 /* AppDelegate.swift in Sources */,
+				41F8BDBA1B9D3FDE00CD6168 /* ActiveAPIDataManager.swift in Sources */,
+				41F8BDBE1B9E8D6E00CD6168 /* UserLocationProvider.swift in Sources */,
+				41F8BDC31B9FD09000CD6168 /* Races.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +574,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = compete.me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(Inherited)";
@@ -524,6 +591,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = compete.me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(Inherited)";

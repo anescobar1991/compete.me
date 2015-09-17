@@ -286,6 +286,7 @@
                     <navigationItem key="navigationItem" id="fSz-lM-uPX"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="activeLogo" destination="U2H-t3-fkd" id="Akp-C2-7nv"/>
                         <outlet property="nextMonthButton" destination="hXr-QY-Fh8" id="5oy-vx-HEl"/>
                         <outlet property="nextWeekendButton" destination="WZl-8F-A8m" id="1lj-iF-IdE"/>
                         <outlet property="otherDatesButton" destination="0LH-dc-Lk7" id="67N-x9-896"/>
